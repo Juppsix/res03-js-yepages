@@ -1,25 +1,66 @@
 body {
-  background-color: darkblue;
+  background-image: url("https://pbs.twimg.com/media/COneFiFWUAEQa89.png");
+  background-size: cover;
+  min-height: 120vh;
+}
+
+.centre {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .form-gauche {
   display: grid;
-  border: solid 2px white;
   height: 60vh;
   width: 40vw;
-  text-align: left;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #212E53;
+  margin-top: 19vh;
+  border-radius: 5px;
+  border: 2px solid #CE6A6B;
+  opacity: 90%;
 }
 
 .form-droite {
   display: grid;
   grid-columns: 2;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #212E53;
+  border-radius: 5px;
+  height: 30vh;
+  margin-top: 30vh;
+  border: 2px solid #CE6A6B;
+  opacity: 90%;
 }
 
 li {
   list-style: none;
-  text-align: left;
+}
+
+fieldset {
+  border: none;
+}
+
+h2 {
+  color: #EBACA2;
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: Helvetica;
+}
+
+label {
+  color: #BED3C3;
+  font-size: 1.5rem;
+  font-family: Helvetica;
+}
+
+input {
+  background-color: #BED3C3;
+}
+
+h1 {
+  text-align: center;
+  color: #EBACA2;
 }
 
 /*# sourceMappingURL=style.css.map */
