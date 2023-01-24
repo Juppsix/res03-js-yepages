@@ -1,0 +1,21 @@
+body {
+    background-color: darkblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-gauche {
+    display: grid;
+    border: solid 2px white;
+    height: 60vh;
+    width: 40vw;
+     text-align: left;
+}
+.form-droite {
+    display: grid;
+    grid-columns: 2;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
